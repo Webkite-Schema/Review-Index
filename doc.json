@@ -1,0 +1,478 @@
+{
+  "facets": [
+    {
+      "name": "Name",
+      "type": "Text",
+      "metadata": {
+        "sortable": true,
+        "filterable": false
+      }
+    },
+    {
+      "name": "Image URL",
+      "type": "Image",
+      "metadata": {
+        "sortable": false,
+        "filterable": false
+      }
+    },
+    {
+      "name": "Rating",
+      "type": "Number",
+      "metadata": {
+        "sortable": true,
+        "filterable": false
+      }
+    },
+    {
+      "name": "Review URL",
+      "type": "Text",
+      "metadata": {
+        "sortable": false,
+        "filterable": false
+      }
+    },
+    {
+      "name": "Review Date",
+      "type": "Text",
+      "metadata": {
+        "sortable": false,
+        "filterable": false
+      }
+    },
+    {
+      "name": "Price",
+      "type": "Number",
+      "metadata": {
+        "sortable": true,
+        "filterable": false
+      }
+    },
+    {
+      "name": "Category",
+      "type": "Enum",
+      "metadata": {
+        "sortable": false,
+        "filterable": true
+      }
+    },
+    {
+      "name": "Street Address",
+      "type": "Text",
+      "metadata": {
+        "sortable": false,
+        "filterable": false
+      }
+    },
+    {
+      "name": "City",
+      "type": "Text",
+      "metadata": {
+        "sortable": false,
+        "filterable": false
+      }
+    },
+    {
+      "name": "State",
+      "type": "Text",
+      "metadata": {
+        "sortable": false,
+        "filterable": false
+      }
+    },
+    {
+      "name": "Zip Code",
+      "type": "Text",
+      "metadata": {
+        "sortable": false,
+        "filterable": false
+      }
+    },
+    {
+      "name": "Country",
+      "type": "Text",
+      "metadata": {
+        "sortable": false,
+        "filterable": false
+      }
+    },
+    {
+      "name": "Phone Number",
+      "type": "Text",
+      "metadata": {
+        "sortable": false,
+        "filterable": false
+      }
+    },
+    {
+      "name": "Website",
+      "type": "Text",
+      "metadata": {
+        "sortable": false,
+        "filterable": false
+      }
+    },
+    {
+      "name": "Review Excerpt",
+      "type": "Text",
+      "metadata": {
+        "sortable": false,
+        "filterable": false
+      }
+    }
+  ],
+  "aliases": {
+    "Hebrew": {
+      "_metadata": {
+        "display_name": "מפתח העניינים של הסקירה",
+        "display_language": "עברית",
+        "phrases": {
+          "Sort": "מיון",
+          "Filter": "סינון",
+          "More": "עוד",
+          "Less": "סגור",
+          "Sorry, no results": "מצטערים, אין תוצאות",
+          "There are no results to display based on the selected filters. Try removing a filter to see more results.": "",
+          "and": "וגם",
+          "or": "או",
+          "Details": "לפרטים"
+        }
+      },
+      "Name": "שם ושם משפחה",
+      "Image URL": "URL של תמונה",
+      "Rating": "דירוג",
+      "Review URL": "לסקירה URL",
+      "Review Date": "תאריך הסקירה",
+      "Price": "מחיר",
+      "Category": "קטגוריה",
+      "Street Address": "רחוב",
+      "City": "עיר",
+      "State": "מדינה",
+      "Zip Code": "מיקוד",
+      "Country": "ארץ",
+      "Phone Number": "מספר טלפון",
+      "Website": "אתר",
+      "Review Excerpt": "סקירת קטע"
+    },
+    "Hindi": {
+      "_metadata": {
+        "display_name": "समीक्षा इंडेक्स",
+        "display_language": "हिन्दी",
+        "phrases": {
+          "Sort": "तरह",
+          "Filter": "फिल्टर",
+          "More": "अधिक",
+          "Less": "कम",
+          "Sorry, no results": "क्षमा करें, परिणाम नहीं",
+          "There are no results to display based on the selected filters. Try removing a filter to see more results.": "",
+          "and": "और",
+          "or": "या",
+          "Details": "विवरण"
+        }
+      },
+      "Name": "नाम",
+      "Image URL": "फोटो लिंक",
+      "Rating": "रेटिंग",
+      "Review URL": "समीक्षा कड़ी",
+      "Review Date": "समीक्षा दिनांक",
+      "Price": "मूल्य",
+      "Category": "श्रेणी",
+      "Street Address": "पता",
+      "City": "शहर",
+      "State": "प्रदेश",
+      "Zip Code": "पिन कोड",
+      "Country": "देश",
+      "Phone Number": "फोन नंबर",
+      "Website": "वेबसाइट",
+      "Review Excerpt": "अंश की समीक्षा"
+    },
+    "Chinese (Mandarin)": {
+      "_metadata": {
+        "display_name": "评价索引",
+        "display_language": "普通话",
+        "phrases": {
+          "Sort": "排序",
+          "Filter": "筛选",
+          "More": "更多",
+          "Less": "收起",
+          "Sorry, no results": "不好意思，没有结果",
+          "There are no results to display based on the selected filters. Try removing a filter to see more results.": "",
+          "and": "和",
+          "or": "或",
+          "Details": "细节"
+        }
+      },
+      "Name": "名字",
+      "Image URL": "图片链接",
+      "Rating": "評級",
+      "Review URL": "评价链接",
+      "Review Date": "评价日期",
+      "Price": "价格",
+      "Category": "类别",
+      "Street Address": "地址",
+      "City": "城市",
+      "State": "省",
+      "Zip Code": "邮编",
+      "Country": "国家",
+      "Phone Number": "电话号码",
+      "Website": "网站",
+      "Review Excerpt": "评论节选"
+    },
+    "Spanish": {
+      "_metadata": {
+        "display_name": "Indice de reseña",
+        "display_language": "Español",
+        "phrases": {
+          "Sort": "Ordenar",
+          "Filter": "Filtro",
+          "More": "Más",
+          "Less": "Menos",
+          "Sorry, no results": "Lo sentimos, no hay resultados",
+          "There are no results to display based on the selected filters. Try removing a filter to see more results.": "",
+          "and": "y",
+          "or": "o",
+          "Details": "Detalles"
+        }
+      },
+      "Name": "Nombre",
+      "Image URL": "URL de imagen",
+      "Rating": "Puntuación",
+      "Review URL": "URL de reseña",
+      "Review Date": "Fecha de reseña",
+      "Price": "Precio",
+      "Category": "Categoría",
+      "Street Address": "Dirección",
+      "City": "Ciudad",
+      "State": "Estado",
+      "Zip Code": "Código Postal",
+      "Country": "País",
+      "Phone Number": "Número de teléfono",
+      "Website": "Sitio web",
+      "Review Excerpt": "Revise extracto"
+    },
+    "Portuguese": {
+      "_metadata": {
+        "display_name": "Indice de resenha",
+        "display_language": "Português",
+        "phrases": {
+          "Sort": "Tipo",
+          "Filter": "Filtro",
+          "More": "Mais",
+          "Less": "Menos",
+          "Sorry, no results": "Desculpe, não houve resultados",
+          "There are no results to display based on the selected filters. Try removing a filter to see more results.": "",
+          "and": "e",
+          "or": "ou",
+          "Details": "Detalhes"
+        }
+      },
+      "Name": "Nome",
+      "Image URL": "URL de imagem",
+      "Rating": "Avaliação",
+      "Review URL": "URL de resenha",
+      "Review Date": "Data de resenha",
+      "Price": "Preço",
+      "Category": "Categoria",
+      "Street Address": "Endereço",
+      "City": "Cidade",
+      "State": "Estado",
+      "Zip Code": "Cep",
+      "Country": "País",
+      "Phone Number": "Número de telefone",
+      "Website": "Website",
+      "Review Excerpt": "Comente trecho"
+    },
+    "German": {
+      "_metadata": {
+        "display_name": "Bewertungsindex",
+        "display_language": "Deutsch",
+        "phrases": {
+          "Sort": "Art",
+          "Filter": "Filter",
+          "More": "Mehr",
+          "Less": "Weniger",
+          "Sorry, no results": "Sorry, keine Ergebnisse",
+          "There are no results to display based on the selected filters. Try removing a filter to see more results.": "",
+          "and": "Und",
+          "or": "Oder",
+          "Details": "Details"
+        }
+      },
+      "Name": "Name",
+      "Image URL": "Bild URL",
+      "Rating": "Wertung",
+      "Review URL": "Bewertungs URL",
+      "Review Date": "Bewertungsdatum",
+      "Price": "Preis",
+      "Category": "Kategorie",
+      "Street Address": "Adresse",
+      "City": "Stadt",
+      "State": "Staat",
+      "Zip Code": "Postleitzahl",
+      "Country": "Land",
+      "Phone Number": "Telefonnummer",
+      "Website": "Website",
+      "Review Excerpt": "Bewerten Auszug"
+    },
+    "French": {
+      "_metadata": {
+        "display_name": "Liste des commentaires",
+        "display_language": "Français",
+        "phrases": {
+          "Sort": "Sorte",
+          "Filter": "Filtre",
+          "More": "Plus",
+          "Less": "Moins",
+          "Sorry, no results": "Desole, zero resultats",
+          "There are no results to display based on the selected filters. Try removing a filter to see more results.": "",
+          "and": "et",
+          "or": "ou",
+          "Details": "Détails"
+        }
+      },
+      "Name": "Nom de famille et prenom",
+      "Image URL": "Image URL",
+      "Rating": "Évaluation",
+      "Review URL": "URL des commentaires",
+      "Review Date": "Date de commentaires",
+      "Price": "Prix",
+      "Category": "Catégorie",
+      "Street Address": "Adresse",
+      "City": "Ville",
+      "State": "État ou province",
+      "Zip Code": "Code postal",
+      "Country": "Pays",
+      "Phone Number": "Numero de téléphone",
+      "Website": "Site web",
+      "Review Excerpt": "Extrait des commentaires"
+    },
+    "Russian": {
+      "_metadata": {
+        "display_name": "Обзоры",
+        "display_language": "Язык",
+        "phrases": {
+          "Sort": "Тип",
+          "Filter": "Фильтр",
+          "More": "Больше",
+          "Less": "Меньше",
+          "Sorry, no results": "Простите, но мы ничего не нашли",
+          "There are no results to display based on the selected filters. Try removing a filter to see more results.": "",
+          "and": "И",
+          "or": "или",
+          "Details": "Подробнее"
+        }
+      },
+      "Name": "Имя",
+      "Image URL": "URL изображения",
+      "Rating": "Рейтинг",
+      "Review URL": "URL обзора",
+      "Review Date": "Дата обзора",
+      "Price": "Цена",
+      "Category": "Категория",
+      "Street Address": "Адрес",
+      "City": "Город",
+      "State": "Область",
+      "Zip Code": "Индекс",
+      "Country": "нация",
+      "Phone Number": "Телефон",
+      "Website": "Сайт",
+      "Review Excerpt": "Предпросмотр обзора"
+    },
+    "Indonesian": {
+      "_metadata": {
+        "display_name": "Indeks tinjauan",
+        "display_language": "Bahasa Indonesia",
+        "phrases": {
+          "Sort": "Jenis",
+          "Filter": "Filter",
+          "More": "Lebih",
+          "Less": "Kurang",
+          "Sorry, no results": "Maaf, tidak ada hasil",
+          "There are no results to display based on the selected filters. Try removing a filter to see more results.": "",
+          "and": "dan",
+          "or": "atau",
+          "Details": "Detail"
+        }
+      },
+      "Name": "Nama",
+      "Image URL": "URL gambar",
+      "Rating": "Penilaian",
+      "Review URL": "URL tinjauan",
+      "Review Date": "Tanggal tinjauan",
+      "Price": "Harga",
+      "Category": "Kategori",
+      "Street Address": "Alamat",
+      "City": "Kota",
+      "State": "Negara bagian",
+      "Zip Code": "Zip Code",
+      "Country": "Negeri",
+      "Phone Number": "Nomor telepon",
+      "Website": "Website",
+      "Review Excerpt": "Tinjau Kutipan"
+    },
+    "Dutch": {
+      "_metadata": {
+        "display_name": "Beoordeling Index",
+        "display_language": "Nederlands",
+        "phrases": {
+          "Sort": "Sorteren",
+          "Filter": "Filter",
+          "More": "Meer",
+          "Less": "Minder",
+          "Sorry, no results": "Sorry, geen resultaten",
+          "There are no results to display based on the selected filters. Try removing a filter to see more results.": "",
+          "and": "en",
+          "or": "of",
+          "Details": "Details"
+        }
+      },
+      "Name": "Naam",
+      "Image URL": "Afbeelding URL",
+      "Rating": "Waardering",
+      "Review URL": "Beoordeling URL",
+      "Review Date": "Beoordeling Datum",
+      "Price": "Prijs",
+      "Category": "Categorie",
+      "Street Address": "Adres",
+      "City": "Stad",
+      "State": "Provincie",
+      "Zip Code": "Postcode",
+      "Country": "Land",
+      "Phone Number": "Telefoonnummer",
+      "Website": "Website",
+      "Review Excerpt": "Beoordeling Uittreksel"
+    },
+    "Turkish": {
+      "_metadata": {
+        "display_name": "Yorum Listesi",
+        "display_language": "Türkçe",
+        "phrases": {
+          "Sort": "Sıralama",
+          "Filter": "Filtre",
+          "More": "Daha çok",
+          "Less": "Daha az",
+          "Sorry, no results": "Sonuç Bulunamadı",
+          "There are no results to display based on the selected filters. Try removing a filter to see more results.": "",
+          "and": "ve",
+          "or": "veya",
+          "Details": "Detaylar"
+        }
+      },
+      "Name": "Ad Soyad",
+      "Image URL": "Resim Linki",
+      "Rating": "Değerlendirme",
+      "Review URL": "Yorum Linki",
+      "Review Date": "Yorum Tarihi",
+      "Price": "Fiyat",
+      "Category": "Kategori",
+      "Street Address": "Adres",
+      "City": "Şehir",
+      "State": "Eyalet",
+      "Zip Code": "Posta Kodu",
+      "Country": "Ülke",
+      "Phone Number": "Telefon Numarası",
+      "Website": "Web Sitesi",
+      "Review Excerpt": "Yorum Alıntıda"
+    }
+  }
+}
